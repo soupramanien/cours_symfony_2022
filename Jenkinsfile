@@ -15,7 +15,7 @@ pipeline {
           }
         }
 
-        stage('intégration') {
+        stage('intÃ©gration') {
           steps {
             sh 'php bin/phpunit tests/integration'
           }
